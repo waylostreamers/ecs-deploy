@@ -132,5 +132,6 @@ runs:
     '${{ inputs.tag_env_var_cmd }}', '${{ inputs.tag_env_var }}',
     '${{ inputs.tag_only_cmd }}', '${{ inputs.tag_only }}',
     '${{ inputs.use_latest_task_def_cmd }}', '${{ inputs.use_latest_task_def }}',
-    '${{ inputs.max_definitions_cmd }}', '${{ inputs.max_definitions }}'
+    '${{ inputs.max_definitions_cmd }}', '${{ inputs.max_definitions }}',
+    '${{ inputs.run_task }}'
   ]
